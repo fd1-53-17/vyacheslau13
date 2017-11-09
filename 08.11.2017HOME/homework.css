@@ -22,9 +22,8 @@
 .figura3 {
 	width: 100px;
 	height: 100px;
-	background: red;
 	border-radius: 50px;
 	border-radius: 50px;
-	box-shadow: 70% white inside;
+	box-shadow: -20px 15px 0px 0px yellow;
+	margin-left: 20px;
 }
-
