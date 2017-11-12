@@ -1,28 +1,27 @@
 .figura1 { 
-    width: 100px;
-	height: 100px;
-	border-left: 25px;
+    width: 0px;
+	height: 0px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-	border-bottom: 25px;
-	border: solid black;
+	border: solid black 10px;
+	padding: 30px;
 	
 }
 
 .figura2 {
-    width: 100px;
-    height: 100px;
-    border-left: 50px;
+    width: 0px;
+    height: 0px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    border-top: 50px;
-    border: solid green;
+    border: solid green 10px;
+    padding: 30px;
 }
 
 .figura3 {
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
+	border-left: solid yellow 10px;
+	border-bottom: solid yellow 10px;
 	border-radius: 50px;
-	box-shadow: -20px 15px 0px 0px yellow;
-	margin-left: 20px;
+
 }
