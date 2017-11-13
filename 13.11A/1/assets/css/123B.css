@@ -1,0 +1,6 @@
+.row >div {
+    float: left;
+}
+.row {
+    clear: left;
+}
