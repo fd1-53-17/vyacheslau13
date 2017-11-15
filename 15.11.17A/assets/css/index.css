@@ -1,19 +1,22 @@
 .header {
-    display:block;
+    display: block;
     width: 935px;
     height: 99px;
 }
-.aside{
-    display:block;
+
+.aside {
+    display: block;
     width: 250px;
     height: 670px;
 }
-.main{
-    display:block;
+
+.main {
+    display: block;
     width: 632px;
     height: 700px;
     margin-left: 280px;
 }
+
 .one {
     background: grey;
     width: 100px;
@@ -39,7 +42,7 @@
     text-align: left;
     margin-left: 470px;
     margin-top: -92px;
-    
+
 }
 
 .four {
@@ -56,8 +59,8 @@
     height: 113px;
     text-align: left;
     margin-left: 60px;
-    margin-top:270px;
-    
+    margin-top: 270px;
+
 }
 
 .five {
@@ -69,6 +72,12 @@
     margin-top: -668px;
 }
 
+.ul{
+    padding: 0px;   
+    float: left;
+    float: bottom;
+    margin-left:-20px;
+}
 .li {
     display: inline-block;
     width: 99px;
@@ -76,9 +85,7 @@
     background: lightgrey;
     list-style-type: none;
     text-align: left;
-    
-    
+    padding: 0px;
+    margin: 10px 10px 10px 20px;
+
 }
-    
-
-
