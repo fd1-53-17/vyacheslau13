@@ -1,0 +1,58 @@
+.doska {
+  border-collapse: collapse;
+  float: left;
+
+}
+
+.tdw {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background: white;
+    float: left;
+}
+
+.tdb {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background: grey;
+    float: left;
+    
+}
+.B {
+    border-collapse: collapse;
+    float: left;
+}
+
+.c {
+    border-collapse: collapse;
+    float: left;
+}
+
+.d {
+    border-collapse: collapse;
+    float: left;
+}
+.e {
+    border-collapse: collapse;
+    float: left;
+}
+
+.f {
+    border-collapse: collapse;
+    float: left;
+}
+
+.g {
+    border-collapse: collapse;
+    float: left;
+}
+
+.h {
+    border-collapse: collapse;
+    float: left;
+}
+
+
+
