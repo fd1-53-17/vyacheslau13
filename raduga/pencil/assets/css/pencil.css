@@ -1,0 +1,82 @@
+.list {
+  height: 100vh;
+  background: repeating-linear-gradient(to top, black 0, black 2px, transparent 2px, transparent 50px),
+  repeating-linear-gradient(to right, black 0, black 2px, transparent 2px, transparent 50px);
+}
+
+.pencil {
+  background: linear-gradient(to bottom, yellow 0, gold 30%, yellow 30%, yellow 66%, gold 66%, yellow 100%);
+  height: 50px;
+  width: 200px;
+  margin-left: 30px;
+  margin-top: -3px;
+}
+
+.lastik {
+  width: 30px;
+  height: 43px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border: solid pink;
+  background: pink;
+  margin-top: 10px;
+}
+
+.brevno {
+  width: 0px;
+  height: 0px;
+  margin-left: 200px;
+  border-left: 45px solid peru;
+  border-top: 25px solid white;
+  border-bottom: 25px solid white;
+  border-right: 10px;
+  background-color: peru;
+}
+
+.pipka {
+  width: 0px;
+  height: 0px;
+  margin-left: -10px;
+  border-left: 20px solid black;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  border-right: 10px;
+  background-color: black;
+  margin-top: -5px;
+}
+
+.pencil1 {
+  background: darkcyan;
+  background: radial-gradient(darkblue, cyan);
+  height: 50px;
+  height: 200px;
+  width: 50px;
+  margin-top: 70px;
+  margin-left: -250px;
+}
+
+.brevno1 {
+  width: 0px;
+  height: 0px;
+  margin-left: 200px;
+  border-left: 25px solid white;
+  border-top: 50px solid peru;
+  border-bottom: 0px solid white ;
+  border-right: 25px solid white;
+  background:peru;
+  margin-left: -250px;
+  margin-top:;
+  
+}
+
+.pipka1 {
+  width: 0px;
+  height: 0px;
+  border-left: 6px solid white ;
+  border-top: 16px solid black;
+  border-bottom: 0px solid white;
+  border-right: 6px solid white;
+  background-color: black;
+  margin-left: -230px;
+  margin-top: -12px;
+}
