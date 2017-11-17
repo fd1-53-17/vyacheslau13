@@ -1,13 +1,12 @@
 .header {
     display: block;
-    width: 935px;
+    width: 820px;
     height: 99px;
     position: relative;
 }
 
 .aside {
     display: inline-block;
-    width: 250px;
     height: 670px;
     position: absolute;
     left: 0px;
@@ -17,7 +16,7 @@
 
 .main {
     display: block;
-    width: 1300px;
+    width: 820px;
     height: 700px;
     position: relative;
 }
@@ -27,6 +26,8 @@
     width: 100px;
     height: 91px;
     text-align: left;
+    position: relative;
+    
 }
 
 .two {
@@ -34,6 +35,9 @@
     width: 236px;
     height: 91px;
     text-align: left;
+    position: absolute;
+    top: 0px;
+    left: 120px;
 }
 
 .three {
@@ -41,6 +45,9 @@
     width: 439px;
     height: 91px;
     text-align: left;
+    position: absolute;
+    top: 0px;
+    left: 370px;
 }
 
 .four {
@@ -63,97 +70,112 @@
 
 .five {
     background: lightgrey;
-    width: 632px;
+    width: 605px;
     height: 170px;
     text-align: left;
+    position: absolute;
+    top: 10px;
+    left: 200px;
 
 }
 
 .ul {
+    position: static;
+    padding-top: 170px;
+    padding-left: 60px;
     float: left;
-    float: bottom;
+    width: 700px;
+    height: 200px;
 }
 
 .li {
     display: inline-block;
-    width: 97.2px;
-    height: 100px;
+    width: 95px;
+    height: 95px;
     background: lightgrey;
     list-style-type: none;
     text-align: left;
-    padding: 0px;
-    margin: 10px 10px 10px 10px;
+    margin: 0px 20px 15px 7px;
 
 }
 
 .eight {
     background: lightgrey;
-    width: 300px;
+    width: 280px;
     height: 230px;
     text-align: left;
     position: absolute;
-    right: 0px;
-    bottom: 0px;
+    left: 200px;
+    bottom: -235px;
 }
 
 .nine {
     background: lightgrey;
-    width: 320px;
+    width: 280px;
     height: 230px;
     text-align: left;
-    margin-left: 320px;
-    margin-top: -230px;
+    position: absolute;
+    bottom: -235px;
+    right: -130px;
+    
 }
 
 .footer {
     display: block;
-    width: 935px;
-    height: 400px;
+    width: 820px;
+    height: 200px;
     position: relative;
 }
 
 .ten {
     background: grey;
-    width: 320px;
-    height: 230px;
+    width: 280px;
+    height: 200px;
     text-align: left;
-    position: absolute 0px 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 .eleven {
     background: grey;
-    width: 320px;
-    height: 230px;
+    width: 280px;
+    height: 200px;
     text-align: left;
-    position: absolute 0px 0px;
+    position: absolute;
+    top: 0px;
+    left: 300px;
 }
 
 .twelve {
     background: grey;
-    width: 220px;
+    width: 210px;
     height: 85px;
     text-align: left;
-    position: absolute 0px 0px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
 
 .thirty {
     background: grey;
-    width: 220px;
+    width: 210px;
     height: 85px;
     text-align: left;
     position: absolute;
     top:0px;
+    right: 0px;
 
 }
 
 .wrapper {
     position: static;
-    width: 1300px;
-    height: 900px;
+    width: 825px;
+    height: 1100px;
 }
 .article {
-    width: 419px;
-    height: 419px;
+    width: 400px;
+    height:400px;
     top: 0px;
     position: absolute;
     padding: 0px 135px 0px 135px;
