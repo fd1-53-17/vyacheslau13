@@ -1,0 +1,47 @@
+.three {
+    background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/cards2.png');
+    background-position: -285px -190px;
+    width: 150px;
+    height: 200px;
+}
+
+.seven {
+    background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/cards2.png');
+    background-repeat: no-repeat;
+    background-position: -140px -966px;
+    overflow: hidden;
+    width: 150px;
+    height: 200px;
+}
+
+.a {
+    background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/cards2.png');
+    background-repeat: no-repeat;
+    background-position: -430px -2325px;
+    width: 150px;
+    height: 200px;
+
+}
+
+.z {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+}
+
+.zone{
+  z-index: 30;
+  top: 80px;
+  left: 80px;
+}
+.ztw{
+  z-index: 20;
+  top: 40px;
+  left: 40px;
+}
+.zthree{
+  z-index: 10;
+  top: 0px;
+  left: 0px;
+
+}
