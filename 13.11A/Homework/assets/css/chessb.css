@@ -1,0 +1,154 @@
+.doska {
+    border-collapse: collapse;
+    float: left;
+
+}
+
+.tdw {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    background: white;
+    float: left;
+}
+
+.tdb {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    background: grey;
+    float: left;
+
+}
+
+.B {
+    border-collapse: collapse;
+    float: left;
+}
+
+.c {
+    border-collapse: collapse;
+    float: left;
+}
+
+.d {
+    border-collapse: collapse;
+    float: left;
+}
+
+.e {
+    border-collapse: collapse;
+    float: left;
+}
+
+.f {
+    border-collapse: collapse;
+    float: left;
+}
+
+.g {
+    border-collapse: collapse;
+    float: left;
+}
+
+.h {
+    border-collapse: collapse;
+    float: left;
+}
+
+.peshblack {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    background-position: -265px 0px;
+}
+
+.ladia {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    background-position: -107px 0px;
+}
+
+.slon {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    background-position: -159px 0px;
+}
+
+.hourse {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    background-position: -212px 0px;
+}
+
+.king {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    background-position: 0px 0px;
+
+}
+
+.queen {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    background-position: -50px 0px;
+}
+
+.peshwhite {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    background-position: -260px -50px;
+}
+
+.ladiaw {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    background-position: -107px -50px;
+}
+
+.slonw {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    background-position: -159px -50px;
+}
+
+.horsew {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    background-position: -207px -50px;
+}
+
+.kingw {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    background-position: 0px -50px;
+}
+
+.queenw {
+    background-image: url(https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    background-position: -50px -50px;
+}
