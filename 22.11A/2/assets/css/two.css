@@ -1,0 +1,35 @@
+
+.one {
+    border-style: solid black;
+    background-color: lightgrey;
+    width: 15%;
+    height: 20px;
+    text-align: left;
+}
+
+.two {
+    border-style: solid black;
+    background-color: lightgrey;
+    width: 13%;
+    height: 10%;
+}
+.inf {
+    width: 25%;
+    height: 50%;
+    overflow: auto;
+    background: lightgrey;
+    white-space: nowrap;
+}
+.text {
+    color: cyan;
+    display: inline-block;
+}
+.text1 {
+    color: orange;
+    display: inline-block;
+    font-style: italic;
+}
+.p {
+    display: inline-block;
+    width: 623px;
+}
