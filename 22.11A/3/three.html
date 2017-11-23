@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/three.css">
+</head>
+
+<body class="wrapper">
+    <h1>Creating a chart</h1>
+    <p>To create a chart, we need instantiate the <span class="chart">Chart</span> class. To do this, we need to pass in the 2d context of where we want draw the chart Here's an example.
+    </p>
+    <p class="snoska">&lt;canvas <span class="text">id=</span>&quot;<span class="text1">myChart&quot;</span> <span class="text">width=</span><span class="text">&quot;400&quot;</span> <span class="text">height=</span><span class="text1">&quot;400&quot;</span>&gt;&lt;/canvas&gt;</p>
+    <p class="snoska2"><span class="text3">//Get the context of the canvas element we want to select</span><br> <strong>var</strong> ctx = <span class="textblue">document.</span>getElementById(<span class="text1">&quot;myChart&quot;</span>).getContext(<span class="text1">&quot;2d&quot;</span>);<br>        <strong>var</strong> myNewChart = <strong>new</strong> Chart(ctx).PolaraArea(data);</p>
+    <p>We can also getthe contextof our canvas with jQuery. To do this we, this we need to get the DOM node out of the jQuery collection, and call the<br> <span class="chart2">getContext(&quot;2d&quot;)</span> method of that.</p>
+    <p class="snoska3"><span class="text3">// Get the context wiwh jQuery &ndash; using jQuerty's .get() method.</span><br>
+        <strong>var</strong> ctx = $(<span class="text1">&quot;#myChart&quot;</span>) .get(<span class="textblue">0</span>) .getContext(<span class="text1">&quot;2d&quot;</span></pan>);<br>
+        <span class="text3">// This will get the first returned node in the jQuery collection</span><br>
+        <strong>var</strong> myNewChart = <strong>new</strong> Chart(ctx);</p>
+</body>
+
+
+</html>

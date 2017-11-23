@@ -14,8 +14,7 @@
     height: 10%;
 }
 .inf {
-    width: 25%;
-    height: 50%;
+    width: 20%;
     overflow: auto;
     background: lightgrey;
     white-space: nowrap;

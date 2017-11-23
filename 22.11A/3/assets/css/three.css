@@ -1,0 +1,55 @@
+.wrapper {
+    width: 600px;
+    height: 500px;
+}
+
+.chart {
+    background-color: lightgrey;
+    
+}
+.snoska {
+    display:inline-block;
+    background-color: lightgrey;
+    width: 550px;
+    height: 25px;
+    text-align: center;
+    margin-left: 10px;        
+}
+.snoska2 {
+   display:inline-block;
+    background-color: lightgrey;
+    width: 550px;
+    text-align: center;
+    margin-left: 10px;  
+}
+
+.chart2 {
+    background-color: lightgrey;
+    margin-left: 10px;
+    
+}
+
+.snoska3 {
+    display:inline-block;
+    background-color: lightgrey;
+    width: 400px;
+    text-align: center;
+    margin-left: 10px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.text {
+    color:green;
+}
+.text1 {
+    color: red;
+}
+.text3 {
+    color: silver;
+    font-style: italic;
+}
+
+.textblue {
+    color: blue;
+}
