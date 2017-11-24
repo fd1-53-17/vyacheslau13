@@ -1,0 +1,61 @@
+body {
+    width: 500px;
+    height: 400px;
+    background-color: #66CDAA;
+}
+
+main {
+    width: 400px;
+    height: 300px;
+    border: solid 2px;
+    text-align: center;
+    margin: 50px;
+}
+
+block1 {
+    width: 150px;
+    height: 300px;
+    float: left;
+}
+
+block2 {
+    width: 250px;
+    height: 300px;
+    float: right;
+}
+
+.red {
+    width: 60px;
+    height: 50px;
+    background-color: red;
+    border: solid 1px;
+    margin-left: 45px;
+    margin-top: 40px;
+}
+
+.blue {
+    width: 60px;
+    height: 100px;
+    background-color: blue;
+    border: solid 1px;
+    margin-top: 70px;
+    margin-left: 45px;
+
+}
+
+.green {
+    width: 205px;
+    height: 150px;
+    background-color: green;
+    border: solid 1px;
+    margin-top: 40px;
+
+}
+
+.yellow {
+    width: 205px;
+    height: 50px;
+    background-color: yellow;
+    border: solid 1px;
+    margin-top: 19px;
+}
