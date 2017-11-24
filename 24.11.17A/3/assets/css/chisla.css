@@ -1,0 +1,163 @@
+.wrapper:hover>.row>div{
+}
+
+.row>div {
+    display: inline-block;
+    transition: all 2s;
+    
+}
+.row {
+    width: 40px;
+    height: 90px;
+    position:absolute;
+    
+}
+
+
+.one{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.two {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+}
+
+.three {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+
+.oneone {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+}
+
+.twotwo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.threethree {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+.wrapper:hover .twotwo {
+    top: 15px;
+    left: 30px;
+}
+.wrapper:hover .threethree {
+    left: 15px;
+}
+
+
+.one1 {
+    position: absolute;
+    top: 30px;
+}
+
+.two1 {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+
+.three1 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.wrapper:hover .two1 {
+    left: 0px;
+}
+.wrapper:hover .one1 {
+    left: 15px;
+}
+
+
+.one2 {
+    position: absolute;
+    top:45px;
+    left: 0px;
+}
+
+.two2 {
+    position: absolute;
+    top: 45px;
+    left: 15px;
+}
+
+.three2 {
+    position: absolute;
+    top: 45px;
+    left: 30px;
+}
+.wrapper:hover .two2 {
+    left: 0px;
+}
+.wrapper:hover .one2 {
+    left: 30px;
+}
+.wrapper:hover .three2{
+    left: 15px;
+}
+.one3 {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+}
+
+.two3 {
+    position: absolute;
+    top:60px;
+    left: 15px;
+}
+
+.three3 {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
+.wrapper:hover .one3 {
+    left:15px;
+}
+.wrapper:hover .two3 {
+    left: 30px;
+}
+.wrapper:hover .three3 {
+    left: 0px;
+}
+
+    
+.one4 {
+    position: absolute;
+    top: 75px;
+    left: 0px;
+}
+
+.two4 {
+    position: absolute;
+    top: 75px;
+    left: 15px;
+}
+.three4 {
+    position: absolute;
+    top:75px;
+    left: 30px;
+}
+.wrapper:hover .one4 {
+    left: 30px;
+}
+.wrapper:hover .two4 {
+    left: 15px;
+}
+.wrapper:hover .three4{
+    left: 0px;
+}
