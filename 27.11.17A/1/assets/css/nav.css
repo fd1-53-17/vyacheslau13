@@ -24,7 +24,7 @@ nav>ul {
   }
   nav {
     background-color: #fd0;
-    height: 50vh;
+    height: 15vh;
   }
 }
 
@@ -53,5 +53,5 @@ nav>ul {
 }
  nav {
     background-color: #0fd;
-    height: 100vh;
+    height: 20vh;
   }
