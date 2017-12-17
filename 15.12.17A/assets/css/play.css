@@ -1,0 +1,8 @@
+main {
+  main: #8B0000;
+  background-color: #7a0000;
+}
+[type=button] {
+  border: 12px dashed yellow;
+  border-radius: 12px;
+}
