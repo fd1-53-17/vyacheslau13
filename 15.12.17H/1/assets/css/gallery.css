@@ -1,0 +1,5 @@
+.scroll{
+    width: 580px;
+    overflow: scroll;
+    padding: 0;
+}

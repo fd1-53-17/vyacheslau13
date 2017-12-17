@@ -1,0 +1,169 @@
+body {
+    width: 90vw;
+    height: 70vh;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, lightblue), to(white));
+    background: -webkit-linear-gradient(lightblue 10%, white 100%);
+    background: -o-linear-gradient(lightblue 10%, white 100%);
+    background: linear-gradient(lightblue 10%, white 100%);
+    background-repeat: no-repeat;
+}
+
+.ball {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background-color: orange;
+    position: absolute;
+    -webkit-animation: jump 3s linear infinite, moveLeft 12s linear infinite;
+            animation: jump 3s linear infinite, moveLeft 12s linear infinite;
+z-index: 10;
+}
+
+.Shaddow {
+    width: 70px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0vw;
+    background: rgba(20, 20, 20, .2);
+    -webkit-animation: shadow 3s linear infinite, shadowLeft 12s linear infinite;
+            animation: shadow 3s linear infinite, shadowLeft 12s linear infinite;
+}
+
+@-webkit-keyframes jump {
+    0% {
+        bottom: 50%;
+    }
+    25% {
+        bottom: 0;
+        width: 75px;
+        height: 75px
+    }
+    30% {
+        bottom: 0;
+        height: 20px;
+        width: 80px;
+        left: 40vw;
+    }
+    35% {
+        bottom: 0;
+        width: 75px;
+        height: 75px;
+    }
+    70% {
+        bottom: 25%;
+    }
+    100% {
+        bottom: 50%;
+    }
+}
+
+@keyframes jump {
+    0% {
+        bottom: 50%;
+    }
+    25% {
+        bottom: 0;
+        width: 75px;
+        height: 75px
+    }
+    30% {
+        bottom: 0;
+        height: 20px;
+        width: 80px;
+        left: 40vw;
+    }
+    35% {
+        bottom: 0;
+        width: 75px;
+        height: 75px;
+    }
+    70% {
+        bottom: 25%;
+    }
+    100% {
+        bottom: 50%;
+    }
+}
+
+@-webkit-keyframes moveLeft {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes moveLeft {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+@-webkit-keyframes shadow {
+    0% {
+        width: 75px;
+        height: 15px;
+        background: rgba(20, 20, 20, .1);
+        -webkit-box-shadow: 0px 0 10px 15px rgba(20, 20, 20, .1);
+        box-shadow: 0px 0 10px 15px rgba(20, 20, 20, .1);
+    }
+    30% {
+        width: 50px;
+        height: 10px;
+        background: rgba(20, 20, 20, .3);
+        -webkit-box-shadow: 0px 0 10px 15px rgba(20, 20, 20, .3);
+        box-shadow: 0px 0 10px 15px rgba(20, 20, 20, .3);
+    }
+    100% {
+        width: 75px;
+        height: 15px;
+        background: rgba(20, 20, 20, .1);
+        -webkit-box-shadow: 0px 0 10px 15px rgba(20, 20, 20, .1);
+        box-shadow: 0px 0 10px 15px rgba(20, 20, 20, .1);
+    }
+}
+
+@keyframes shadow {
+    0% {
+        width: 75px;
+        height: 15px;
+        background: rgba(20, 20, 20, .1);
+        -webkit-box-shadow: 0px 0 10px 15px rgba(20, 20, 20, .1);
+        box-shadow: 0px 0 10px 15px rgba(20, 20, 20, .1);
+    }
+    30% {
+        width: 50px;
+        height: 10px;
+        background: rgba(20, 20, 20, .3);
+        -webkit-box-shadow: 0px 0 10px 15px rgba(20, 20, 20, .3);
+        box-shadow: 0px 0 10px 15px rgba(20, 20, 20, .3);
+    }
+    100% {
+        width: 75px;
+        height: 15px;
+        background: rgba(20, 20, 20, .1);
+        -webkit-box-shadow: 0px 0 10px 15px rgba(20, 20, 20, .1);
+        box-shadow: 0px 0 10px 15px rgba(20, 20, 20, .1);
+    }
+}
+@-webkit-keyframes shadowLeft {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}
+@keyframes shadowLeft {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}
