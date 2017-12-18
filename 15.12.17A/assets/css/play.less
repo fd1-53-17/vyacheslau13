@@ -1,0 +1,12 @@
+@mainColor: #8B0000;
+main{
+   main: @mainColor;
+   background-color: @mainColor - #111;
+}
+[type=button] {
+    .roundBorder(12px, 12px, dashed, yellow) 
+}
+.roundBorder( @br, @bw, @bs, @bc){
+   border:  @bw @bs @bc;
+   border-radius: @br;
+}
