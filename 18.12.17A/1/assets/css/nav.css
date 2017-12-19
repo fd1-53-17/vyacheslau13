@@ -1,0 +1,50 @@
+.navTop{
+    display: inline-block;
+    width: 40vw;
+    height: 9vh;
+    list-style: none;
+    padding: 0 0 0 4vw;
+}
+.navTop>li{
+    display: inline-block;
+    border: solid black 2px;
+    width: 22%;
+    height: 8vh;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.kvadrat:target{
+    display: block;
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+}
+ .kvadrat:not(target){
+     display: none;
+ }
+ 
+ .krug:target{
+     display:block;
+     width: 200px;
+     height: 200px;
+     border-radius: 100%;
+     background-color: red;
+ }
+ 
+.krug:not(target){
+    display:none;
+}
+
+.triugl:target{
+    display: block;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-right: 100px solid transparent ;
+  border-left: 100px solid green;
+  width: 0;
+  height: 0;
+}
+.triugl:not(target){
+    display: none;
+}
