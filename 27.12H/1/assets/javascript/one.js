@@ -14,4 +14,4 @@ if (arguments[i] > max) max = arguments[i];
 }
 alert("Максимальное число=" + max);
 }
-Max(1, 7, 12, 500, 1002);
+Max(1, 7, 12, 500, 1050);
