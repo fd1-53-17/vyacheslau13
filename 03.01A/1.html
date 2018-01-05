@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> </title>
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+    <header>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>
+            console.log($);
+        </script>
+        <button>кнопка</button>
+        <button>кнопка</button>
+        <button>кнопка</button>
+        <button>кнопка</button>
+    </header>
+    <script>
+        $(function() {
+            $('button').on('click', function() {
+                console.log(this, arguments)
+            })
+        })</script>
+
+
+</body>
+
+</html>
